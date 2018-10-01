@@ -1,0 +1,45 @@
+html ,
+body {
+  font-size:18px;
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+}
+
+ .banner-container {
+   max-width: 960px;
+   margin: 0 auto;
+
+ }
+
+
+nav {
+  background-color: cadetblue;
+  display:flex;
+  justify-content: space-between;
+  color:white;
+  align-items: center;
+  font-size: 1rem;
+
+}
+
+
+ .logo {
+   display:flex;
+   margin: 1rem;
+   padding-left : 1rem;
+   padding-right : 2rem ;
+   align-items: center;
+
+ }
+
+ .logo img {
+   margin-right: 1rem;
+ }
+
+ .nav-links {
+   padding-right:2rem;
+ }
+
+ .nav-links span {
+   padding-right:2rem;
+ }
