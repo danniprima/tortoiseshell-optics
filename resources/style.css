@@ -6,8 +6,15 @@ body {
 }
 
  .banner-container {
-   max-width: 960px;
-   margin: 0 auto;
+   width:100% auto;
+   height:30rem;
+   display:flex;
+   flex-direction: column;
+   background-image :url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+   background-position: center;
+   background-size: cover;
+   text-align: right;
+
 
  }
 
@@ -19,6 +26,8 @@ nav {
   color:white;
   align-items: center;
   font-size: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
 
 }
 
@@ -43,3 +52,23 @@ nav {
  .nav-links span {
    padding-right:2rem;
  }
+
+ .slogan {
+  display:flex;
+  justify-content: flex-end;
+  max-width: 960px;
+  align-content: center;
+  margin-top:10rem;
+
+
+}
+
+.slogan span {
+font-weight: bold;
+font-size: 2rem;
+line-height: 1.2;
+padding:1.5rem 5rem;
+background-color: white;
+margin-right: -2rem;
+
+}
